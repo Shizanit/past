@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 import { EditorView } from "@/components/editor/editor-view";
 import { env } from "@/lib/env";
 import * as fs from "node:fs/promises";

@@ -1,10 +1,10 @@
 import { EditorView } from "@/components/editor/editor-view";
 import { env } from "@/lib/env";
+import { readmeContent } from "@/data/readme";
 import { Suspense } from "react";
-import readmeRaw from "@/../../README.md";
 
 export default function AboutPage() {
-  let readme = readmeRaw as string;
+  let readme = readmeContent;
   readme = readme.replace(
     '<a href="https://vercel.com/new/project?template=jozsefsallai/fastbin-rewritten"><img width="128" src="https://vercel.com/button" alt="One-click Deployment" /></a>',
     "https://vercel.com/new/project?template=jozsefsallai/fastbin-rewritten",

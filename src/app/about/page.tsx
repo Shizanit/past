@@ -1,9 +1,10 @@
-export const runtime = 'edge';
 import { EditorView } from "@/components/editor/editor-view";
 import { env } from "@/lib/env";
 import * as fs from "node:fs/promises";
 import * as path from "node:path";
 import { Suspense } from "react";
+
+export const dynamic = "force-static"; // ← добавить это
 
 export default async function AboutPage() {
   const readmePath = path.join(process.cwd(), "README.md");

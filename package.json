@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@opennextjs/cloudflare": "^1.19.9",
     "@types/mousetrap": "^1.6.15",
     "@types/node": "^20",
     "@types/react": "^19.2.14",

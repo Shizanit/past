@@ -1,0 +1,10 @@
+{
+  "name": "past",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-05-12",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".next/static",
+    "binding": "ASSETS"
+  }
+}
